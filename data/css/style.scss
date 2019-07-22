@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,600,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat+Alternates:300,400,700,900&display=swap');
 
 *{
   margin:0;
@@ -46,12 +47,17 @@ header{
     }
     &-caption{
       color: #666;
-      top: 50%;
+      top: 55%;
       height: auto;
       left: 25%;
       width: max-content;
       transform: translate(-50%,-50%);
       position: absolute;
+      text-align: left;
+      font-family: 'Montserrat Alternates', sans-serif;
+      p{
+        max-width: 300px;
+      }
     }
     .carousel-control-next-icon{
       background: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='yellow' viewBox='0 0 8 8'%3e%3cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3e%3c/svg%3e");
