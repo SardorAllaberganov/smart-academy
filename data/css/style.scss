@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,600,700&display=swap');
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+html, body{
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.navbar{
+  .nav-link{
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform: uppercase;
+    margin: 0 10px;
+    color: #555555;
+    transition: all .2s;
+    &:hover{
+      color: #E9C716;
+    }
+  }
+}
+
+header{
+  height: 100vh;
+  position: relative;
+  width: 100%;
+  overflow-x: hidden;
+  .carousel{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    width: 100%;
+    &-item{
+      position: relative;
+      height: 100vh;
+      img{
+        top: 50%;
+        right: 1%;
+        transform: translate(-50%,-50%);
+        position: absolute;
+      }
+    }
+    &-caption{
+      color: #666;
+      top: 50%;
+      height: auto;
+      left: 25%;
+      width: max-content;
+      transform: translate(-50%,-50%);
+      position: absolute;
+    }
+    .carousel-control-next-icon{
+      background: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='yellow' viewBox='0 0 8 8'%3e%3cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3e%3c/svg%3e");
+    }
+    .carousel-control-prev-icon{
+      background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='yellow' viewBox='0 0 8 8'%3e%3cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3e%3c/svg%3e")
+    }
+  }
+  .carousel-indicators li{
+    background-color: #E9C716;
+  }
+}
