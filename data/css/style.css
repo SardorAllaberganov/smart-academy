@@ -1,5 +1,5 @@
-@import url("https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,600,700&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Montserrat+Alternates:300,400,700,900&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600,700,800,900&display=swap&subset=cyrillic");
 * {
   margin: 0;
   padding: 0;
@@ -7,13 +7,11 @@
           box-sizing: border-box;
 }
 
-html, body {
-  font-family: 'Josefin Sans', sans-serif;
-}
-
 .navbar .nav-link {
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
+  font-weight: 600;
+  font-size: .9em;
   margin: 0 10px;
   color: #555555;
   -webkit-transition: all .2s;
