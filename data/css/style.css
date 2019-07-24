@@ -7,6 +7,18 @@
           box-sizing: border-box;
 }
 
+html, body {
+  scroll-behavior: smooth;
+}
+
+.nav-bg {
+  background: #f8f8f8;
+  -webkit-box-shadow: 0 5px 10px rgba(233, 199, 22, 0.3);
+          box-shadow: 0 5px 10px rgba(233, 199, 22, 0.3);
+  -webkit-transition: all .2s;
+  transition: all .2s;
+}
+
 .navbar .nav-link {
   font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
@@ -20,6 +32,14 @@
 
 .navbar .nav-link:hover {
   color: #E9C716;
+}
+
+.nav-colored {
+  background-color: #000;
+}
+
+.nav-transparent {
+  background-color: transparent;
 }
 
 header {
@@ -53,7 +73,7 @@ header .carousel-item img {
 
 header .carousel-caption {
   color: #666;
-  top: 55%;
+  top: 50%;
   height: auto;
   left: 25%;
   width: -webkit-max-content;
@@ -80,5 +100,55 @@ header .carousel .carousel-control-prev-icon {
 
 header .carousel-indicators li {
   background-color: #E9C716;
+}
+
+header .course-btn {
+  position: absolute;
+  top: 60%;
+  text-decoration: none;
+  border: 2px solid #E9C716;
+  background: #E9C716;
+  padding: 10px 40px;
+  color: #fff;
+  border-radius: 30px;
+  -webkit-transition: all .2s;
+  transition: all .2s;
+}
+
+header .course-btn:hover {
+  color: #E9C716;
+  background: #fff;
+}
+
+#about {
+  padding: 100px 0;
+  height: 100%;
+  position: relative;
+}
+
+#about h1 {
+  color: #E9C716;
+  margin: 0 0 100px;
+}
+
+#about .inner-about-column p {
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+
+#about img {
+  width: 100%;
+}
+
+#particles-js {
+  width: 100%;
+  top: 0;
+  height: 100%;
+  position: absolute;
+  z-index: -1;
+  background-color: #fff;
+  background-image: url("");
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
 }
 /*# sourceMappingURL=style.css.map */

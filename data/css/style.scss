@@ -10,8 +10,14 @@
 
 html, body{
   // font-family: 'Josefin Sans', sans-serif;
+  scroll-behavior: smooth;
 }
 
+.nav-bg{
+  background: #f8f8f8;
+  box-shadow: 0 5px 10px rgba(233,199,22, 0.3);
+  transition: all .2s;
+}
 .navbar{
   .nav-link{
     font-family: 'Montserrat', sans-serif;
@@ -26,6 +32,8 @@ html, body{
     }
   }
 }
+.nav-colored { background-color:#000; }
+.nav-transparent { background-color:transparent;}
 
 header{
   height: 100vh;
@@ -50,7 +58,7 @@ header{
     }
     &-caption{
       color: #666;
-      top: 55%;
+      top: 50%;
       height: auto;
       left: 25%;
       width: max-content;
@@ -72,4 +80,56 @@ header{
   .carousel-indicators li{
     background-color: #E9C716;
   }
+  .course-btn{
+    position: absolute;
+    top: 60%;
+    text-decoration: none;
+    border: 2px solid #E9C716;
+    background: #E9C716;
+    padding: 10px 40px;
+    color: #fff;
+    border-radius: 30px;
+    transition: all .2s;
+    &:hover{
+      color: #E9C716;
+      background: #fff;
+    }
+  }
 }
+
+#about{
+  padding: 100px 0;
+  height: 100%  ;
+  position: relative;
+  h1{
+    color: #E9C716;
+    margin: 0 0 100px;
+  }
+  .inner-about-column{
+    p{
+      font-family: 'Montserrat Alternates', sans-serif;
+    }
+  }
+  img{
+    width: 100%;
+  }
+}
+
+#particles-js{
+  width: 100%;
+  top: 0;
+  height: 100%;
+  position: absolute;
+  z-index: -1;
+  background-color: #fff;
+  background-image: url('');
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+
+
+
+// #courses{
+//   height: 100vh;
+// }

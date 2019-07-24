@@ -11,7 +11,7 @@
 </head>
 <body>
   
-  <nav class="navbar navbar-expand-md fixed-top">
+  <nav class="navbar navbar-expand-md fixed-top" id="navbar">
     <div class="container">
       <!-- Brand -->
       <a class="navbar-brand" href="#"><img src="data/img/logo.svg" width="150" alt=""></a>
@@ -28,7 +28,10 @@
             <a class="nav-link" href="#">Главная</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Курсы</a>
+            <a class="nav-link" href="#about">О нас</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#courses">Курсы</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Блог</a>
@@ -80,13 +83,50 @@
             <span class="carousel-control-next-icon"></span>
           </a>
         </div>
+        <a href="#about" class="course-btn">Узнать больше</a>
       </div>
     </div>
   </header>
 
+  <section id="about">
+    <div id="particles-js"></div>
+    <div class="container">
+      <h1 class="text-center">О нас</h1>
+      <div class="row">
+        <div class="col-md-5 col-lg-5">
+          <div class="inner-about-column">
+            <p> Мы - Smart Academy - Инновационная школа по обучению детей и подростков Программированию. 
+                Наша миссия - развить в детях способность и страсть к технологиям и дизайну, содействуя в научно-техническом творчестве!</p>
+            <p>Команда Smart Academy стремится дать своим ученикам знания информатики, программирования и проектного менеджмента, формируя в детях технические навыки и креативное мышление.</p>
+            <p>В Smart Academy работают сертифицированные инструкторы - практики с богатым опытом от 3-х лет. Все курсы состоят из практических занятий, позволяя в полной мере освоить материал и расширить свои способности.</p>
+          </div>
+        </div>
+        <div class="col-md-7 col-lg-7">
+          <img src="data/img/about-us.svg" alt="">
+        </div>
+      </div>
+      <div class="row mt-3">
+          <div class="col-md-6 col-lg-6">
+              <img src="data/img/about-us1.svg" alt="">
+            </div>
+          <div class="col-md-6 col-lg-6">
+            <div class="inner-about-column mt-5">
+              <p>В конце каждого курса учащиеся реализуют свои собственные Проекты, как индивидуально, так и в команде. И после успешного прохождения получают Сертификаты Smart Academy, который позволяет юным разработчикам чувствовать гордость за свои достижения, давая хороший стимул к дальнейшему обучению.</p>
+              <p>Освоив наши курсы дети будут иметь возможность участвовать в значимых мероприятиях и конкурсах в сфере компьютерных технологий по всему миру.</p>
+            </div>
+          </div>
+        </div>
+    </div>
+  </section>
+
+  <section id="courses">
+
+  </section>
+
   <script src="data/js/jquery.min.js"></script>
   <script src="data/js/popper.min.js"></script>
   <script src="data/js/bootstrap.min.js"></script>
+  <script src="data/js/particles.min.js"></script>
   <script src="data/js/index.js"></script>
 </body>
 </html>
