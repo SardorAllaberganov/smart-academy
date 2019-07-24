@@ -105,6 +105,7 @@ header .carousel-indicators li {
 header .course-btn {
   position: absolute;
   top: 60%;
+  left: 17%;
   text-decoration: none;
   border: 2px solid #E9C716;
   background: #E9C716;
@@ -153,6 +154,11 @@ header .course-btn:hover {
 }
 
 #courses {
+  padding: 100px 0;
   height: 100vh;
+}
+
+#courses h1 {
+  color: #E9C716;
 }
 /*# sourceMappingURL=style.css.map */
