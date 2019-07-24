@@ -151,4 +151,8 @@ header .course-btn:hover {
   background-position: 50% 50%;
   background-repeat: no-repeat;
 }
+
+#courses {
+  height: 100vh;
+}
 /*# sourceMappingURL=style.css.map */
