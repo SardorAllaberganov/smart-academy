@@ -157,7 +157,7 @@ header .course-btn:hover {
 
 #courses {
   padding: 100px 0;
-  height: 100vh;
+  height: 100%;
 }
 
 #courses h1 {
