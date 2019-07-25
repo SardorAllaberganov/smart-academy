@@ -168,7 +168,7 @@ header .course-btn:hover {
           box-shadow: 0 4px 15px #ccc;
   border-radius: 5px;
   padding: 20px;
-  height: 220px;
+  min-height: 220px;
 }
 
 #courses .course-header {
