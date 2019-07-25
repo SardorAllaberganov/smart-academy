@@ -82,7 +82,7 @@ header{
   }
   .course-btn{
     position: absolute;
-    top: 60%;
+    top: 65%;
     left: 17%;
     text-decoration: none;
     border: 2px solid #E9C716;
@@ -136,5 +136,22 @@ header{
   height: 100vh;
   h1{
     color: #E9C716;
+    margin-bottom: 150px
+  }
+  .courses-inner{
+    box-shadow: 0 4px 15px #ccc;
+    border-radius: 5px;
+    height: 100px;
+  }
+  .scratch{
+    position: relative;
+    width: 100%;
+    content: " ";
+    background: #24A2EC url(../img/scratch.png);
+    background-repeat: no-repeat;
+    background-size: 90% 90%;
+    height: 250px;
+    background-position: center -100%;
+    margin-bottom: 20px;
   }
 }
