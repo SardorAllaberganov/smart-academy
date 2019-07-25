@@ -141,17 +141,68 @@ header{
   .courses-inner{
     box-shadow: 0 4px 15px #ccc;
     border-radius: 5px;
-    height: 100px;
+    padding: 20px;
+    height: 220px;
   }
-  .scratch{
+  
+  .course-header{
     position: relative;
     width: 100%;
     content: " ";
-    background: #24A2EC url(../img/scratch.png);
-    background-repeat: no-repeat;
-    background-size: 90% 90%;
-    height: 250px;
-    background-position: center -100%;
-    margin-bottom: 20px;
+    height: 150px;
+    margin-bottom: 10px;
+    box-shadow: 0 0 10px #ccc;
+    border-radius: 4px;
+    img{
+      width: 70%;
+      margin-top: -90px;
+      position: relative;
+      text-align: center;
+      left: 50%;
+      transform: translateX(-50%);
+    }
   }
+}
+.courses-link{
+  transition: all .3s;
+  a{
+    text-decoration: none;
+    h5{
+      color: rgb(0, 146, 231);
+      margin: 15px 0;
+    }
+    p{
+      color: #555555;
+      line-height: 20px;
+      font-size: 16px;
+    }
+  }
+}
+.courses-link:hover{
+  transform: scale(1.1);
+  
+}
+.scratch{
+  background: radial-gradient(rgb(76, 198, 255), rgb(0, 146, 231));
+}
+.thunkable{
+  background: url('../img/Asset2@2x.png') no-repeat, linear-gradient(45deg,  rgb(207, 241, 9),rgba(53, 230, 9,0.5)) ;
+  background-size: cover;
+  background-position: center;
+}
+.web{
+  background: radial-gradient(rgb(222, 224, 71), rgb(206, 178, 19));
+}
+
+.courses-bottom{
+  color: #fff;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  font-weight: 700;
+  background: linear-gradient(45deg, rgb(76, 198, 255), rgb(0, 146, 231));
+  width: 80%;
+  padding: 8px;
+  text-align: center;
+  border-radius:  0 0 10px 10px;
 }
