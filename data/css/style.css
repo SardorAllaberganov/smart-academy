@@ -74,7 +74,9 @@ header .carousel-item img {
 header .carousel-caption {
   color: #666;
   top: 50%;
-  height: auto;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
   left: 25%;
   width: -webkit-max-content;
   width: -moz-max-content;
@@ -243,5 +245,33 @@ header .course-btn:hover {
   padding: 8px;
   text-align: center;
   border-radius: 0 0 10px 10px;
+}
+
+#social {
+  padding: 100px 0;
+  text-align: center;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.6)), to(rgba(255, 255, 255, 0.6))), url(../img/social/social-bg.png) no-repeat;
+  background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url(../img/social/social-bg.png) no-repeat;
+  background-size: cover;
+}
+
+#social h1 {
+  margin: 0 0 100px;
+  color: #E9C716;
+}
+
+#social img {
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+  -webkit-transition: all .3s;
+  transition: all .3s;
+  width: 70%;
+}
+
+#social img:hover {
+  -webkit-filter: grayscale(0%);
+          filter: grayscale(0%);
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 /*# sourceMappingURL=style.css.map */

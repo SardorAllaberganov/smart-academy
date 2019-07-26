@@ -59,7 +59,7 @@ header{
     &-caption{
       color: #666;
       top: 50%;
-      height: auto;
+      height: max-content;
       left: 25%;
       width: max-content;
       transform: translate(-50%,-50%);
@@ -205,4 +205,24 @@ header{
   padding: 8px;
   text-align: center;
   border-radius:  0 0 10px 10px;
+}
+
+#social{
+  padding: 100px 0;
+  text-align: center;
+  background: linear-gradient(rgba(255,255,255,0.6),rgba(255,255,255,0.6)), url(../img/social/social-bg.png) no-repeat;
+  background-size: cover;
+  h1{
+    margin: 0 0 100px;
+    color: #E9C716;
+  }
+  img{
+    filter: grayscale(100%);
+    transition: all .3s;
+    width: 70%;
+    &:hover{
+      filter: grayscale(0%);
+      transform: scale(1.1);
+    }
+  }
 }
