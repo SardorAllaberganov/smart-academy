@@ -50,11 +50,6 @@ header {
 }
 
 header .carousel {
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-  position: absolute;
   width: 100%;
 }
 
@@ -64,32 +59,12 @@ header .carousel-item {
 }
 
 header .carousel-item img {
+  width: 70%;
   top: 50%;
-  right: 1%;
+  left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   position: absolute;
-}
-
-header .carousel-caption {
-  color: #666;
-  top: 50%;
-  height: -webkit-max-content;
-  height: -moz-max-content;
-  height: max-content;
-  left: 25%;
-  width: -webkit-max-content;
-  width: -moz-max-content;
-  width: max-content;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-  position: absolute;
-  text-align: left;
-  font-family: 'Montserrat Alternates', sans-serif;
-}
-
-header .carousel-caption p {
-  max-width: 300px;
 }
 
 header .carousel .carousel-control-next-icon {
@@ -106,8 +81,10 @@ header .carousel-indicators li {
 
 header .course-btn {
   position: absolute;
-  top: 70%;
-  left: 17%;
+  top: 80%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
   text-decoration: none;
   border: 2px solid #E9C716;
   background: #E9C716;
@@ -291,12 +268,12 @@ header .course-btn:hover {
 #contacts {
   background: linear-gradient(15deg, #E9C716, #f06e3b);
   margin-top: 100px;
-  padding: 100px 0;
+  padding: 60px 0;
 }
 
 #contacts h1 {
   color: #fff;
-  margin: 0 0 100px;
+  margin: 0 0 60px;
 }
 
 #contacts img {
@@ -309,5 +286,63 @@ header .course-btn:hover {
 #contacts img:hover {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
+}
+
+@media only screen and (max-width: 992px) and (orientation: landscape) {
+  .courses-inner {
+    min-height: 300px !important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  h1 {
+    font-size: 1.5em;
+    margin: 30px 0 !important;
+  }
+  header .course-btn {
+    padding: 8px 20px;
+    font-size: 12px;
+  }
+  #about, #courses {
+    padding-top: 50px;
+    padding-bottom: 0;
+  }
+  .courses-link {
+    margin-top: 120px;
+  }
+  #method {
+    margin: 50px 0;
+  }
+  #method .inner {
+    height: 200px;
+  }
+  #social {
+    margin: 20px 0;
+    padding: 0;
+  }
+  #social img {
+    padding: 20px;
+  }
+  #about img {
+    width: 70%;
+  }
+  #about .inner-about-column p {
+    font-size: .8em;
+  }
+  .courses-inner {
+    min-height: 300px !important;
+  }
+}
+
+@media only screen and (max-width: 768px) and (orientation: landscape) {
+  #courses .course-header img {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .courses-inner {
+    min-height: 100px !important;
+  }
 }
 /*# sourceMappingURL=style.css.map */
