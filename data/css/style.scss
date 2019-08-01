@@ -1,7 +1,7 @@
 // @import url('https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,600,700&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Montserrat+Alternates:300,400,700,900&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600,700,800,900&display=swap&subset=cyrillic');
-
+@import url('https://fonts.googleapis.com/css?family=Caveat:400,700&display=swap&subset=cyrillic');
 *{
   margin:0;
   padding:0;
@@ -115,6 +115,9 @@ header{
   background-position: 50% 50%;
   background-repeat: no-repeat;
 }
+
+
+
 
 
 
@@ -243,6 +246,70 @@ header{
   }
 }
 
+.scratch-header{
+  background: url(../img/scratch_bg.png) no-repeat;
+  height: 50vh;
+  background-size: cover;
+  background-position: center 40%;
+}
+.mobile-header{
+  background: url(../img/mobile.svg) no-repeat;
+  height: 50vh;
+  background-size: cover;
+  background-position: center 40%;
+}
+.web-header{
+  background: url(../img/web-header.svg) no-repeat;
+  height: 50vh;
+  background-size: cover;
+  background-position: center 40%;
+}
+.pages-nav{
+  background: #f8f8f8;
+  box-shadow: 0 5px 10px rgba(233,199,22, 0.3);
+  transition: all .2s;
+}
+
+.page-main{
+  padding: 50px 0;
+  font-family: 'Montserrat', sans-serif;
+  .colm-2-top{
+    p{
+      width: 100%;
+      color: #000000;
+      text-align: center;
+      margin: 28px 0px 10px;
+    }
+  }
+  .colm-1{
+    ul,ol{
+      padding: 0 20px;
+      margin: 0 30px;
+      li{
+        margin: 10px 0;
+      }
+    }
+    
+  }
+}
+
+.course-image{
+  img{
+    width: 100%;
+  }
+}
+.side-info{
+  margin-top: 30px;
+  font-family: 'Caveat', cursive;
+  background: #eee;
+  padding: 20px;
+  p{
+    font-size: 1.5rem;
+    margin: 4px 0;
+  }
+}
+
+
 @media only screen and (max-width: 992px) and (orientation: landscape){
   .courses-inner{
     min-height: 300px!important;
@@ -286,6 +353,14 @@ header{
   }
   .courses-inner{
     min-height: 300px!important;
+  }
+  .colm-1{
+    p,ul,li{
+      font-size: 12px;
+    }
+    h2{
+      font-size:  1.4em;
+    }
   }
 }
 
