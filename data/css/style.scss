@@ -82,13 +82,16 @@ header{
   }
   .course-btn{
     position: absolute;
-    top: 65%;
+    top: 70%;
     left: 17%;
     text-decoration: none;
     border: 2px solid #E9C716;
     background: #E9C716;
     padding: 10px 40px;
     color: #fff;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.5px;
     border-radius: 30px;
     transition: all .2s;
     &:hover{
@@ -208,21 +211,49 @@ header{
 }
 
 #social{
-  padding: 100px 0;
+  margin-top: 100px;
+  padding: 50px 0;
   text-align: center;
-  background: linear-gradient(rgba(255,255,255,0.6),rgba(255,255,255,0.6)), url(../img/social/social-bg.png) no-repeat;
-  background-size: cover;
   h1{
-    margin: 0 0 100px;
+    margin: 0 0 60px;
     color: #E9C716;
-    font-family: 'Montserrat Alternates', sans-serif;
+    // font-family: 'Montserrat Alternates', sans-serif;
   }
   img{
     filter: grayscale(100%);
     transition: all .3s;
-    width: 70%;
+    width: 80%;
     &:hover{
       filter: grayscale(0%);
+      transform: scale(1.1);
+    }
+  }
+}
+
+#method{
+  margin-top: 100px;
+  .inner{
+    background: url(../img/method.png) no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 450px;
+    background-position: center;
+  }
+}
+
+#contacts{
+  background: linear-gradient(15deg, #E9C716, rgb(240, 110, 59));
+  margin-top: 100px;
+  padding: 100px 0;
+  h1{
+    color: #fff;
+    margin: 0 0 100px;
+  }
+  img{
+    width: 100%;
+    position: relative;
+    transition: all .3s;
+    &:hover{
       transform: scale(1.1);
     }
   }
