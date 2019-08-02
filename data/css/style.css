@@ -32,7 +32,7 @@ html, body {
 }
 
 .navbar .nav-link:hover {
-  color: #E9C716;
+  color: #F3B707;
 }
 
 .nav-colored {
@@ -77,7 +77,7 @@ header .carousel .carousel-control-prev-icon {
 }
 
 header .carousel-indicators li {
-  background-color: #E9C716;
+  background-color: #F3B707;
 }
 
 header .course-btn {
@@ -87,8 +87,8 @@ header .course-btn {
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   text-decoration: none;
-  border: 2px solid #E9C716;
-  background: #E9C716;
+  border: 2px solid #F3B707;
+  background: #F3B707;
   padding: 10px 40px;
   color: #fff;
   font-weight: 500;
@@ -100,7 +100,7 @@ header .course-btn {
 }
 
 header .course-btn:hover {
-  color: #E9C716;
+  color: #F3B707;
   background: #fff;
 }
 
@@ -111,7 +111,7 @@ header .course-btn:hover {
 }
 
 #about h1 {
-  color: #E9C716;
+  color: #F3B707;
   margin: 0 0 100px;
 }
 
@@ -142,7 +142,7 @@ header .course-btn:hover {
 }
 
 #courses h1 {
-  color: #E9C716;
+  color: #F3B707;
   margin-bottom: 150px;
 }
 
@@ -236,12 +236,10 @@ header .course-btn:hover {
 
 #social h1 {
   margin: 0 0 60px;
-  color: #E9C716;
+  color: #F3B707;
 }
 
 #social img {
-  -webkit-filter: grayscale(100%);
-          filter: grayscale(100%);
   -webkit-transition: all .3s;
   transition: all .3s;
   width: 80%;
@@ -267,7 +265,7 @@ header .course-btn:hover {
 }
 
 #contacts {
-  background: linear-gradient(15deg, #E9C716, #f06e3b);
+  background: linear-gradient(15deg, #F3B707, #f06e3b);
   margin-top: 100px;
   padding: 60px 0;
 }

@@ -28,7 +28,7 @@ html, body{
     color: #555555;
     transition: all .2s;
     &:hover{
-      color: #E9C716;
+      color: #F3B707;
     }
   }
 }
@@ -61,7 +61,7 @@ header{
     }
   }
   .carousel-indicators li{
-    background-color: #E9C716;
+    background-color: #F3B707;
   }
   .course-btn{
     position: absolute;
@@ -69,8 +69,8 @@ header{
     left: 50%;
     transform: translate(-50%,-50%);
     text-decoration: none;
-    border: 2px solid #E9C716;
-    background: #E9C716;
+    border: 2px solid #F3B707;
+    background: #F3B707;
     padding: 10px 40px;
     color: #fff;
     font-weight: 500;
@@ -79,7 +79,7 @@ header{
     border-radius: 30px;
     transition: all .2s;
     &:hover{
-      color: #E9C716;
+      color: #F3B707;
       background: #fff;
     }
   }
@@ -90,7 +90,7 @@ header{
   height: 100%  ;
   position: relative;
   h1{
-    color: #E9C716;
+    color: #F3B707;
     margin: 0 0 100px;
   }
   .inner-about-column{
@@ -125,7 +125,7 @@ header{
   padding: 100px 0;
   height: 100%;
   h1{
-    color: #E9C716;
+    color: #F3B707;
     margin-bottom: 150px
   }
   .courses-inner{
@@ -203,11 +203,11 @@ header{
   text-align: center;
   h1{
     margin: 0 0 60px;
-    color: #E9C716;
+    color: #F3B707;
     // font-family: 'Montserrat Alternates', sans-serif;
   }
   img{
-    filter: grayscale(100%);
+    // filter: grayscale(100%);
     transition: all .3s;
     width: 80%;
     &:hover{
@@ -229,7 +229,7 @@ header{
 }
 
 #contacts{
-  background: linear-gradient(15deg, #E9C716, rgb(240, 110, 59));
+  background: linear-gradient(15deg, #F3B707, rgb(240, 110, 59));
   margin-top: 100px;
   padding: 60px 0;
   h1{
