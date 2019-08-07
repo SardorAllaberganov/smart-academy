@@ -309,6 +309,81 @@ header{
   }
 }
 
+.youtube-video{
+  width: 100%;
+}
+
+.footer{
+  padding: 50px 0;
+  background: #12141a;
+  margin-top: 150px;
+  img.logo{
+    padding: 0 40px;
+    margin-top: -10px
+  }
+  img{
+    width: 100%;
+    padding: 15px;
+    transition: all .3s;
+    &:hover{
+      transform: scale(1.1);
+    }
+  }
+  .border-1{
+    position: relative;
+  }
+  .border-1::after{
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 1px;
+    background: #F3B707;
+    top: 0;
+    right: 0;
+  }
+  h4{
+    margin-bottom: 50px;
+    position: relative;
+    color: #eee;
+    &::after{
+      position: absolute;
+      bottom: -20px;
+      content: "";
+      width: 25%;
+      height: 3px;
+      background: #F3B707;
+      left: 0;
+    }
+  }
+  p{
+    color: #fff;
+    a{
+      color: #fff;
+      text-decoration: none;
+      transition: all .3s;
+      &:hover{
+        color: #F3B707;
+      }
+    }
+  }
+  .social{
+    display: flex;
+    div{
+      width: 25%; 
+    }
+  }
+}
+
+.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+
+  > .col,
+  > [class*="col-"] {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
 
 @media only screen and (max-width: 992px) and (orientation: landscape){
   .courses-inner{
@@ -362,6 +437,14 @@ header{
       font-size:  1.4em;
     }
   }
+  .footer{
+    img{
+      padding: 5px;
+    }
+    img.logo{
+      padding: 10px;
+    }
+  }
 }
 
 @media only screen and (max-width: 768px) and (orientation: landscape){
@@ -373,5 +456,14 @@ header{
 @media only screen and (max-width: 576px){
   .courses-inner{
     min-height: 100px!important;
+  }
+  .footer{
+    text-align: center;
+    .col-md-4{
+      margin-left: 0!important;
+    }
+  }
+  h4:after{
+    left: 25%!important;
   }
 }

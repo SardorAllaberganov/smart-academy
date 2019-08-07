@@ -353,6 +353,99 @@ header .course-btn:hover {
   margin: 4px 0;
 }
 
+.youtube-video {
+  width: 100%;
+}
+
+.footer {
+  padding: 50px 0;
+  background: #12141a;
+  margin-top: 150px;
+}
+
+.footer img.logo {
+  padding: 0 40px;
+  margin-top: -10px;
+}
+
+.footer img {
+  width: 100%;
+  padding: 15px;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+.footer img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.footer .border-1 {
+  position: relative;
+}
+
+.footer .border-1::after {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 1px;
+  background: #F3B707;
+  top: 0;
+  right: 0;
+}
+
+.footer h4 {
+  margin-bottom: 50px;
+  position: relative;
+  color: #eee;
+}
+
+.footer h4::after {
+  position: absolute;
+  bottom: -20px;
+  content: "";
+  width: 25%;
+  height: 3px;
+  background: #F3B707;
+  left: 0;
+}
+
+.footer p {
+  color: #fff;
+}
+
+.footer p a {
+  color: #fff;
+  text-decoration: none;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+.footer p a:hover {
+  color: #F3B707;
+}
+
+.footer .social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer .social div {
+  width: 25%;
+}
+
+.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.no-gutters > .col,
+.no-gutters > [class*="col-"] {
+  padding-right: 0;
+  padding-left: 0;
+}
+
 @media only screen and (max-width: 992px) and (orientation: landscape) {
   .courses-inner {
     min-height: 300px !important;
@@ -403,6 +496,12 @@ header .course-btn:hover {
   .colm-1 h2 {
     font-size: 1.4em;
   }
+  .footer img {
+    padding: 5px;
+  }
+  .footer img.logo {
+    padding: 10px;
+  }
 }
 
 @media only screen and (max-width: 768px) and (orientation: landscape) {
@@ -414,6 +513,15 @@ header .course-btn:hover {
 @media only screen and (max-width: 576px) {
   .courses-inner {
     min-height: 100px !important;
+  }
+  .footer {
+    text-align: center;
+  }
+  .footer .col-md-4 {
+    margin-left: 0 !important;
+  }
+  h4:after {
+    left: 25% !important;
   }
 }
 /*# sourceMappingURL=style.css.map */
