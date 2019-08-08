@@ -358,14 +358,13 @@ header .course-btn:hover {
 }
 
 .footer {
-  padding: 50px 0;
+  padding: 50px 0 10px;
   background: #12141a;
   margin-top: 150px;
 }
 
 .footer img.logo {
-  padding: 0 40px;
-  margin-top: -10px;
+  padding: 0 20px;
 }
 
 .footer img {
@@ -407,7 +406,9 @@ header .course-btn:hover {
   width: 25%;
   height: 3px;
   background: #F3B707;
-  left: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
 }
 
 .footer p {
@@ -435,6 +436,15 @@ header .course-btn:hover {
   width: 25%;
 }
 
+.footer h6 {
+  font-family: "montserrat", 'sans-serif';
+  text-align: center;
+}
+
+.footer h6 img {
+  width: 100px;
+}
+
 .no-gutters {
   margin-right: 0;
   margin-left: 0;
@@ -453,6 +463,9 @@ header .course-btn:hover {
 }
 
 @media only screen and (max-width: 768px) {
+  .footer .social {
+    margin-top: 10px !important;
+  }
   h1 {
     font-size: 1.5em;
     margin: 30px 0 !important;
